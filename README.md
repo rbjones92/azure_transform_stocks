@@ -13,5 +13,5 @@ programmatically count incidients of a certain type "A", for accident.
 - VS Code
 
 ## Local Execution
-Loading initial dataframe
-![Alt Text](screenshots/parquet_result.png?raw=true "load output")
+ETL Result
+![Alt Text](screenshots/parquet_result.png?raw=true "parquet result")
