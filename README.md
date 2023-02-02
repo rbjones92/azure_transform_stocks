@@ -14,4 +14,4 @@ programmatically count incidients of a certain type "A", for accident.
 
 ## Local Execution
 Loading initial dataframe
-![Alt Text](screenshots/parquet_result.PNG?raw=true "load output")
+![Alt Text](screenshots/parquet_result.png?raw=true "load output")
