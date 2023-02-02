@@ -1,11 +1,10 @@
 ## Azure - Transform Stocks From Blob Storage
 
 ## Summary
-This project is an Apache Spark Mini Project through Springboard to refactor a post-sales report utilizing Spark. 
+This project is an ETL of stock trade and quote data. The data is hosted on an Azure Blob container. It includes both CSV and JSON files. We will load both trade and quote CSV and JSON files, and combine them into one dataframe. 
 
 ## Description
-This project is essentially an ETL of .csv data into a new set of data with summary counts that we were looking for. We needed to replace missing values of data, and 
-programmatically count incidients of a certain type "A", for accident. 
+The data is hosted on an Azure Blob container. It includes both CSV and JSON files. We will load both trade and quote CSV and JSON files, and combine them into one dataframe. The result dataframe is shown below.
 
 ## Technologies
 - Python 3.7
