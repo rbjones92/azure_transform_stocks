@@ -8,7 +8,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DateType, TimestampType, DoubleType
 
 spark = SparkSession.builder.master('local').appName('app').config('spark.jars.packages', 'org.apache.hadoop:hadoop-azure:3.3.1').getOrCreate()
-spark.conf.set("fs.azure.account.key.springboardstorage.blob.core.windows.net","aytLE9zNkSMkYuioLbflu5bhemJ6vMZ10hCKEMgSPURwFfZqBJpNOZjEJUsxirAhSOLZReYsuB2u+AStlBBQWw==")
+spark.conf.set("fs.azure.account.key.springboardstorage.blob.core.windows.net",f"{azure_key")
 
 
 trade_schema = StructType([
