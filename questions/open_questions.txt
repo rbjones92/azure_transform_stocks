@@ -1,0 +1,7 @@
+Open questions: 
+If you don’t specify the “BROADCAST” hint in the join query, what would happen?
+-	The broadcast join executes if the spark session is configured to execute a broadcast join based on the size of bytes of the dataframe that you’re looking to broadcast. 
+How can you tell whether the broadcast join is in effect? 
+-	Use the explain() function to review the physical plan of the spark executors. 
+If our data submission doesn’t happen on weekends and holidays, how would you get the previous date?
+-	Use a script to scrape the dates from the filename into a list, order them, then use a variable to find the date previous on the list from the current date 
